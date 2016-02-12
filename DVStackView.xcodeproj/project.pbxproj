@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD7FB78F1C6E2C1600EBEF7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FB78E1C6E2C1600EBEF7F /* AppDelegate.swift */; };
+		DD7FB7911C6E2C1600EBEF7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FB7901C6E2C1600EBEF7F /* ViewController.swift */; };
+		DD7FB7941C6E2C1600EBEF7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7FB7921C6E2C1600EBEF7F /* Main.storyboard */; };
+		DD7FB7961C6E2C1600EBEF7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7FB7951C6E2C1600EBEF7F /* Assets.xcassets */; };
+		DD7FB7991C6E2C1600EBEF7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7FB7971C6E2C1600EBEF7F /* LaunchScreen.storyboard */; };
+		DD7FB7A41C6E2C1600EBEF7F /* DVStackViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FB7A31C6E2C1600EBEF7F /* DVStackViewTests.swift */; };
+		DD7FB7AF1C6E2C1600EBEF7F /* DVStackViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FB7AE1C6E2C1600EBEF7F /* DVStackViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD7FB7A01C6E2C1600EBEF7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD7FB7831C6E2C1500EBEF7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD7FB78A1C6E2C1500EBEF7F;
+			remoteInfo = DVStackView;
+		};
+		DD7FB7AB1C6E2C1600EBEF7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD7FB7831C6E2C1500EBEF7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD7FB78A1C6E2C1500EBEF7F;
+			remoteInfo = DVStackView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD7FB78B1C6E2C1500EBEF7F /* DVStackView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVStackView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7FB78E1C6E2C1600EBEF7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD7FB7901C6E2C1600EBEF7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD7FB7931C6E2C1600EBEF7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD7FB7951C6E2C1600EBEF7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD7FB7981C6E2C1600EBEF7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD7FB79A1C6E2C1600EBEF7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7FB79F1C6E2C1600EBEF7F /* DVStackViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVStackViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7FB7A31C6E2C1600EBEF7F /* DVStackViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVStackViewTests.swift; sourceTree = "<group>"; };
+		DD7FB7A51C6E2C1600EBEF7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7FB7AA1C6E2C1600EBEF7F /* DVStackViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVStackViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7FB7AE1C6E2C1600EBEF7F /* DVStackViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVStackViewUITests.swift; sourceTree = "<group>"; };
+		DD7FB7B01C6E2C1600EBEF7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD7FB7881C6E2C1500EBEF7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7FB79C1C6E2C1600EBEF7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7FB7A71C6E2C1600EBEF7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD7FB7821C6E2C1500EBEF7F = {
+			isa = PBXGroup;
+			children = (
+				DD7FB78D1C6E2C1500EBEF7F /* DVStackView */,
+				DD7FB7A21C6E2C1600EBEF7F /* DVStackViewTests */,
+				DD7FB7AD1C6E2C1600EBEF7F /* DVStackViewUITests */,
+				DD7FB78C1C6E2C1500EBEF7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD7FB78C1C6E2C1500EBEF7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD7FB78B1C6E2C1500EBEF7F /* DVStackView.app */,
+				DD7FB79F1C6E2C1600EBEF7F /* DVStackViewTests.xctest */,
+				DD7FB7AA1C6E2C1600EBEF7F /* DVStackViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD7FB78D1C6E2C1500EBEF7F /* DVStackView */ = {
+			isa = PBXGroup;
+			children = (
+				DD7FB78E1C6E2C1600EBEF7F /* AppDelegate.swift */,
+				DD7FB7901C6E2C1600EBEF7F /* ViewController.swift */,
+				DD7FB7921C6E2C1600EBEF7F /* Main.storyboard */,
+				DD7FB7951C6E2C1600EBEF7F /* Assets.xcassets */,
+				DD7FB7971C6E2C1600EBEF7F /* LaunchScreen.storyboard */,
+				DD7FB79A1C6E2C1600EBEF7F /* Info.plist */,
+			);
+			path = DVStackView;
+			sourceTree = "<group>";
+		};
+		DD7FB7A21C6E2C1600EBEF7F /* DVStackViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD7FB7A31C6E2C1600EBEF7F /* DVStackViewTests.swift */,
+				DD7FB7A51C6E2C1600EBEF7F /* Info.plist */,
+			);
+			path = DVStackViewTests;
+			sourceTree = "<group>";
+		};
+		DD7FB7AD1C6E2C1600EBEF7F /* DVStackViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD7FB7AE1C6E2C1600EBEF7F /* DVStackViewUITests.swift */,
+				DD7FB7B01C6E2C1600EBEF7F /* Info.plist */,
+			);
+			path = DVStackViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD7FB78A1C6E2C1500EBEF7F /* DVStackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7FB7B31C6E2C1600EBEF7F /* Build configuration list for PBXNativeTarget "DVStackView" */;
+			buildPhases = (
+				DD7FB7871C6E2C1500EBEF7F /* Sources */,
+				DD7FB7881C6E2C1500EBEF7F /* Frameworks */,
+				DD7FB7891C6E2C1500EBEF7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVStackView;
+			productName = DVStackView;
+			productReference = DD7FB78B1C6E2C1500EBEF7F /* DVStackView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD7FB79E1C6E2C1600EBEF7F /* DVStackViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7FB7B61C6E2C1600EBEF7F /* Build configuration list for PBXNativeTarget "DVStackViewTests" */;
+			buildPhases = (
+				DD7FB79B1C6E2C1600EBEF7F /* Sources */,
+				DD7FB79C1C6E2C1600EBEF7F /* Frameworks */,
+				DD7FB79D1C6E2C1600EBEF7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD7FB7A11C6E2C1600EBEF7F /* PBXTargetDependency */,
+			);
+			name = DVStackViewTests;
+			productName = DVStackViewTests;
+			productReference = DD7FB79F1C6E2C1600EBEF7F /* DVStackViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD7FB7A91C6E2C1600EBEF7F /* DVStackViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7FB7B91C6E2C1600EBEF7F /* Build configuration list for PBXNativeTarget "DVStackViewUITests" */;
+			buildPhases = (
+				DD7FB7A61C6E2C1600EBEF7F /* Sources */,
+				DD7FB7A71C6E2C1600EBEF7F /* Frameworks */,
+				DD7FB7A81C6E2C1600EBEF7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD7FB7AC1C6E2C1600EBEF7F /* PBXTargetDependency */,
+			);
+			name = DVStackViewUITests;
+			productName = DVStackViewUITests;
+			productReference = DD7FB7AA1C6E2C1600EBEF7F /* DVStackViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD7FB7831C6E2C1500EBEF7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Wonderlabs;
+				TargetAttributes = {
+					DD7FB78A1C6E2C1500EBEF7F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					DD7FB79E1C6E2C1600EBEF7F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DD7FB78A1C6E2C1500EBEF7F;
+					};
+					DD7FB7A91C6E2C1600EBEF7F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DD7FB78A1C6E2C1500EBEF7F;
+					};
+				};
+			};
+			buildConfigurationList = DD7FB7861C6E2C1500EBEF7F /* Build configuration list for PBXProject "DVStackView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD7FB7821C6E2C1500EBEF7F;
+			productRefGroup = DD7FB78C1C6E2C1500EBEF7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD7FB78A1C6E2C1500EBEF7F /* DVStackView */,
+				DD7FB79E1C6E2C1600EBEF7F /* DVStackViewTests */,
+				DD7FB7A91C6E2C1600EBEF7F /* DVStackViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD7FB7891C6E2C1500EBEF7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7FB7991C6E2C1600EBEF7F /* LaunchScreen.storyboard in Resources */,
+				DD7FB7961C6E2C1600EBEF7F /* Assets.xcassets in Resources */,
+				DD7FB7941C6E2C1600EBEF7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7FB79D1C6E2C1600EBEF7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7FB7A81C6E2C1600EBEF7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD7FB7871C6E2C1500EBEF7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7FB7911C6E2C1600EBEF7F /* ViewController.swift in Sources */,
+				DD7FB78F1C6E2C1600EBEF7F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7FB79B1C6E2C1600EBEF7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7FB7A41C6E2C1600EBEF7F /* DVStackViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7FB7A61C6E2C1600EBEF7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7FB7AF1C6E2C1600EBEF7F /* DVStackViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD7FB7A11C6E2C1600EBEF7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD7FB78A1C6E2C1500EBEF7F /* DVStackView */;
+			targetProxy = DD7FB7A01C6E2C1600EBEF7F /* PBXContainerItemProxy */;
+		};
+		DD7FB7AC1C6E2C1600EBEF7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD7FB78A1C6E2C1500EBEF7F /* DVStackView */;
+			targetProxy = DD7FB7AB1C6E2C1600EBEF7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD7FB7921C6E2C1600EBEF7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD7FB7931C6E2C1600EBEF7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD7FB7971C6E2C1600EBEF7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD7FB7981C6E2C1600EBEF7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD7FB7B11C6E2C1600EBEF7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD7FB7B21C6E2C1600EBEF7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD7FB7B41C6E2C1600EBEF7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DVStackView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wonderlabs.DVStackView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD7FB7B51C6E2C1600EBEF7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DVStackView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wonderlabs.DVStackView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD7FB7B71C6E2C1600EBEF7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DVStackViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wonderlabs.DVStackViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DVStackView.app/DVStackView";
+			};
+			name = Debug;
+		};
+		DD7FB7B81C6E2C1600EBEF7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DVStackViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wonderlabs.DVStackViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DVStackView.app/DVStackView";
+			};
+			name = Release;
+		};
+		DD7FB7BA1C6E2C1600EBEF7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DVStackViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wonderlabs.DVStackViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DVStackView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DD7FB7BB1C6E2C1600EBEF7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DVStackViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wonderlabs.DVStackViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DVStackView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD7FB7861C6E2C1500EBEF7F /* Build configuration list for PBXProject "DVStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7FB7B11C6E2C1600EBEF7F /* Debug */,
+				DD7FB7B21C6E2C1600EBEF7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7FB7B31C6E2C1600EBEF7F /* Build configuration list for PBXNativeTarget "DVStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7FB7B41C6E2C1600EBEF7F /* Debug */,
+				DD7FB7B51C6E2C1600EBEF7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD7FB7B61C6E2C1600EBEF7F /* Build configuration list for PBXNativeTarget "DVStackViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7FB7B71C6E2C1600EBEF7F /* Debug */,
+				DD7FB7B81C6E2C1600EBEF7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD7FB7B91C6E2C1600EBEF7F /* Build configuration list for PBXNativeTarget "DVStackViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7FB7BA1C6E2C1600EBEF7F /* Debug */,
+				DD7FB7BB1C6E2C1600EBEF7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD7FB7831C6E2C1500EBEF7F /* Project object */;
+}
