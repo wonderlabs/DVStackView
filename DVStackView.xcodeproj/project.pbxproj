@@ -14,6 +14,8 @@
 		DD7FB7991C6E2C1600EBEF7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7FB7971C6E2C1600EBEF7F /* LaunchScreen.storyboard */; };
 		DD7FB7A41C6E2C1600EBEF7F /* DVStackViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FB7A31C6E2C1600EBEF7F /* DVStackViewTests.swift */; };
 		DD7FB7AF1C6E2C1600EBEF7F /* DVStackViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FB7AE1C6E2C1600EBEF7F /* DVStackViewUITests.swift */; };
+		DD7FB7BF1C6E2CA300EBEF7F /* DVStackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD7FB7BE1C6E2CA300EBEF7F /* DVStackView.xib */; };
+		DD7FB7C31C6E2D1800EBEF7F /* DVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FB7C21C6E2D1800EBEF7F /* DVStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		DD7FB7AA1C6E2C1600EBEF7F /* DVStackViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVStackViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7FB7AE1C6E2C1600EBEF7F /* DVStackViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVStackViewUITests.swift; sourceTree = "<group>"; };
 		DD7FB7B01C6E2C1600EBEF7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7FB7BE1C6E2CA300EBEF7F /* DVStackView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DVStackView.xib; sourceTree = "<group>"; };
+		DD7FB7C21C6E2D1800EBEF7F /* DVStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				DD7FB7951C6E2C1600EBEF7F /* Assets.xcassets */,
 				DD7FB7971C6E2C1600EBEF7F /* LaunchScreen.storyboard */,
 				DD7FB79A1C6E2C1600EBEF7F /* Info.plist */,
+				DD7FB7BE1C6E2CA300EBEF7F /* DVStackView.xib */,
+				DD7FB7C21C6E2D1800EBEF7F /* DVStackView.swift */,
 			);
 			path = DVStackView;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 				DD7FB7991C6E2C1600EBEF7F /* LaunchScreen.storyboard in Resources */,
 				DD7FB7961C6E2C1600EBEF7F /* Assets.xcassets in Resources */,
 				DD7FB7941C6E2C1600EBEF7F /* Main.storyboard in Resources */,
+				DD7FB7BF1C6E2CA300EBEF7F /* DVStackView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7FB7C31C6E2D1800EBEF7F /* DVStackView.swift in Sources */,
 				DD7FB7911C6E2C1600EBEF7F /* ViewController.swift in Sources */,
 				DD7FB78F1C6E2C1600EBEF7F /* AppDelegate.swift in Sources */,
 			);
